@@ -6,7 +6,7 @@ from django.http import JsonResponse
 
 
 def root(request):
-    return JsonResponse({"message": "Hello, Django API is running 🚀"})
+    return JsonResponse({"message": "Hello, Django API is running"})
 
 urlpatterns = [
     path('', root),
