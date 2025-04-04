@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-q^n&$b=-*n0!keopk=%@o#b_l$8(pqerpst-8=5)r+#=mpg*vx
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-api-store.onrender.com']
 
 
 INSTALLED_APPS = [
