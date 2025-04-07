@@ -5,11 +5,7 @@ import { Link } from "react-router-dom";
 import Loader from "./Loader";
 import Message from "./Message";
 import { fetchTopRatedProducts } from "../redux/slices/productSlice";
-import banner1 from "../assets/banner1.jpg"; 
-import banner2 from "../assets/banner2.jpg"; 
-import banner3 from "../assets/banner3.jpg";  
-import banner4 from "../assets/banner4.jpg";
-import banner5 from "../assets/banner5.jpg"; 
+
 
 function ProductCarousel() {
   const dispatch = useDispatch();
@@ -28,31 +24,31 @@ function ProductCarousel() {
     <Carousel fade pause="hover" className="carousel-container" interval={5000}>
       <Carousel.Item>
         <Link to={`/product/iphone-id`}> 
-          <img src={banner1} alt="" className="d-block w-100" />
+          <img src="/images/banner1.jpg" alt="" className="d-block w-100" />
         </Link>
       </Carousel.Item>
 
       <Carousel.Item>
         <Link to={`/product/mouse-id`}>
-          <img src={banner2} alt="" className="d-block w-100" />
+          <img src="/images/banner2.jpg" alt="" className="d-block w-100" />
         </Link>
       </Carousel.Item>
       
       <Carousel.Item>
         <Link to={`/product/mouse-id`}>
-          <img src={banner3} alt="" className="d-block w-100" />
+          <img src="/images/banner3.jpg" alt="" className="d-block w-100" />
         </Link>
       </Carousel.Item>
 
       <Carousel.Item>
         <Link to={`/product/mouse-id`}>
-          <img src={banner4} alt="" className="d-block w-100" />
+          <img src="/images/banner4.jpg" alt="" className="d-block w-100" />
         </Link>
       </Carousel.Item>
 
       <Carousel.Item>
         <Link to={`/product/mouse-id`}>
-          <img src={banner5} alt="" className="d-block w-100" />
+          <img src="/images/banner5.jpg" alt="" className="d-block w-100" />
         </Link>
       </Carousel.Item>
 
