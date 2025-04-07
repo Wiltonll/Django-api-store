@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Django_React_Store/static/css/main.5e9641bd.chunk.css",
+    "main.js": "/Django_React_Store/static/js/main.8355dcfe.chunk.js",
+    "main.js.map": "/Django_React_Store/static/js/main.8355dcfe.chunk.js.map",
+    "runtime-main.js": "/Django_React_Store/static/js/runtime-main.e906cd4c.js",
+    "runtime-main.js.map": "/Django_React_Store/static/js/runtime-main.e906cd4c.js.map",
+    "static/css/2.31f03809.chunk.css": "/Django_React_Store/static/css/2.31f03809.chunk.css",
+    "static/js/2.5ef442f6.chunk.js": "/Django_React_Store/static/js/2.5ef442f6.chunk.js",
+    "static/js/2.5ef442f6.chunk.js.map": "/Django_React_Store/static/js/2.5ef442f6.chunk.js.map",
+    "static/js/3.ccf7a630.chunk.js": "/Django_React_Store/static/js/3.ccf7a630.chunk.js",
+    "static/js/3.ccf7a630.chunk.js.map": "/Django_React_Store/static/js/3.ccf7a630.chunk.js.map",
+    "index.html": "/Django_React_Store/index.html",
+    "static/css/2.31f03809.chunk.css.map": "/Django_React_Store/static/css/2.31f03809.chunk.css.map",
+    "static/css/main.5e9641bd.chunk.css.map": "/Django_React_Store/static/css/main.5e9641bd.chunk.css.map",
+    "static/js/2.5ef442f6.chunk.js.LICENSE.txt": "/Django_React_Store/static/js/2.5ef442f6.chunk.js.LICENSE.txt",
+    "static/media/icons.d7df17ba.png": "/Django_React_Store/static/media/icons.d7df17ba.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e906cd4c.js",
+    "static/css/2.31f03809.chunk.css",
+    "static/js/2.5ef442f6.chunk.js",
+    "static/css/main.5e9641bd.chunk.css",
+    "static/js/main.8355dcfe.chunk.js"
+  ]
+}
