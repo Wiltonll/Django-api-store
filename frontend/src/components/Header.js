@@ -12,7 +12,8 @@ import {
 import { ShoppingCart, AccountCircle } from "@material-ui/icons";
 import { makeStyles } from "@material-ui/core/styles";
 import SearchBox from "./SearchBox";
-import logo from "../assets/icons.png"
+import logo from '../assets/icons.png';
+
 
 
 const useStyles = makeStyles((theme) => ({
