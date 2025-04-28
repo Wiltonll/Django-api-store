@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-q^n&$b=-*n0!keopk=%@o#b_l$8(pqerpst-8=5)r+#=mpg*vx
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-api-store.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 INSTALLED_APPS = [
@@ -44,9 +44,9 @@ SIMPLE_JWT = {
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
